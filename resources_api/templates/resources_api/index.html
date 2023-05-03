@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Life in Japan: Resource Center</title>
+    </head>
+
+
+    <h1>Life in Japan: Resource Center</h1>
+
+    <hr>
+
+    {% for resources in resources %}
+
+        <p> Resource #{{resources.id}} </p>
+
+
+        {{resources.category}}
+
+        <br>
+
+        {{resources.subcategory}}
+
+        <br>
+
+        {{resources.topic}}
+
+        <br>
+
+        {{resources.URL}}
+
+        <br>
+
+        {{resources.description}}
+
+       
+
+    {% endfor %}
+
+</html>
