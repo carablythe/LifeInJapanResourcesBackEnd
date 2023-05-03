@@ -26,7 +26,7 @@ SECRET_KEY = env('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://lifeinjapanresourcesbackend.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
