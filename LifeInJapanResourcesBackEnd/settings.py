@@ -26,7 +26,7 @@ SECRET_KEY = env('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['http://lifeinjapan.netlify.app/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
