@@ -2,7 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    
     path('', views.home, name=""),
     path('api/resources', views.ResourceList.as_view(), name='resource_list'),
     path('api/resources/<int:pk>', views.ResourceDetail.as_view(), name='resource_detail'),
